@@ -35,7 +35,7 @@ document.getElementById('copyButton').addEventListener('click', function() {
   ]).then(function() {
     console.log('Copying to clipboard was successful!');
     // Optionally, alert the user that the copy was successful
-    alert('Results copied to clipboard!');
+    
   }, function(err) {
     console.error('Could not copy text: ', err);
     // Optionally, alert the user that the copy failed
