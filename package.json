@@ -1,6 +1,7 @@
 {
   "name": "my-report-app",
   "source": "src/index.html",
+"homepage": "https://abhishekkarale.github.io/my-report-app/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
