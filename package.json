@@ -1,16 +1,18 @@
 {
   "name": "my-report-app",
   "source": "src/index.html",
-"homepage": "https://abhishekkarale.github.io/my-report-app/",
+  "homepage": "https://abhishekkarale.github.io/my-report-app/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel",
     "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.11.0"
   },
   "keywords": [],
