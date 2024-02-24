@@ -1,0 +1,125 @@
+body {
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  transition: background-color .3s, color .3s;
+  display: flex;
+}
+
+.inputs-container {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+textarea {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 200px;
+  min-height: 150px;
+  margin: 0 10px;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+.button-container {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+#copyButton {
+  cursor: pointer;
+  background-color: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: .8rem;
+}
+
+.result-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+#result {
+  resize: vertical;
+  border-radius: 4px;
+  min-height: 100px;
+  max-height: 500px;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+@media (width <= 768px) {
+  .inputs-container {
+    flex-direction: column;
+  }
+
+  textarea {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-color: #121212;
+  }
+
+  .inputs-container, .result-container {
+    background-color: #1e1e1e;
+  }
+
+  textarea {
+    color: #fff;
+    background-color: #333;
+    border-color: #444;
+  }
+
+  textarea:focus {
+    border-color: #555;
+  }
+
+  button {
+    color: #fff;
+    background-color: #0056b3;
+  }
+
+  #copyButton {
+    cursor: pointer;
+    background-color: #0056b3;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: .7rem;
+  }
+
+  button:hover {
+    background-color: #003d82;
+  }
+
+  #result {
+    color: #fff;
+    background-color: #333;
+  }
+}
+
+/*# sourceMappingURL=index.748ad148.css.map */
