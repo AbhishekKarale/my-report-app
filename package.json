@@ -4,7 +4,7 @@
   "homepage": "https://abhishekkarale.github.io/my-report-app/",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
     "start": "parcel",
     "build": "parcel build index.html",
